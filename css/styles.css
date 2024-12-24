@@ -7,16 +7,18 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #c6ddee;
 }
 
 header {
-    background: #97DEFF;
+    background: #4A628A;
     color: #000;
 }
 
 nav a {
     color: #000;
     text-decoration: none;
+    
 }
 
 nav a.active {
@@ -25,16 +27,18 @@ nav a.active {
 
 .hero-section {
     margin-bottom: 2rem;
+    
 }
 
 .hero-section .carousel-inner img {
     height: 500px;
     object-fit: cover;
+    
 }
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: #c6ddee;
     padding: 1rem;
     border-radius: 8px;
 }
@@ -43,6 +47,7 @@ main {
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
+    background-color: #c6ddee;
 }
 
 footer {
@@ -50,11 +55,7 @@ footer {
     color: #000;
     text-align: center;
     padding: 1rem;
-    position: fixed;
+    position: relative; /* เปลี่ยน fixed เป็น relative */
     bottom: 0;
     width: 100%;
-    background-color: #c6ddee;
-    text-align: center;
-    font-size: 0.9rem; /* ลดขนาดตัวอักษร */
-    position: relative;
 }
