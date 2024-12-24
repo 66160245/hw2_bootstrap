@@ -50,7 +50,11 @@ footer {
     color: #000;
     text-align: center;
     padding: 1rem;
-    position: relative; /* เปลี่ยน fixed เป็น relative */
+    position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #c6ddee;
+    text-align: center;
+    font-size: 0.9rem; /* ลดขนาดตัวอักษร */
+    position: relative;
 }

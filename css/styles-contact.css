@@ -39,6 +39,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #c6ddee;
+    text-align: center;
+    font-size: 0.9rem; /* ลดขนาดตัวอักษร */
 }
 
 .center-head {
@@ -98,11 +101,5 @@ main {
     flex: 1;
 }
 
-/* Footer จะอยู่ที่ล่างสุด */
-footer {
-    background-color: #c6ddee;
-    padding: 1rem 0; /* ลด padding ด้านบนและล่าง */
-    text-align: center;
-    font-size: 0.9rem; /* ลดขนาดตัวอักษร */
-}
+
 
